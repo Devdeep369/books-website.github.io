@@ -1,0 +1,91 @@
+@media only screen and (max-width: 768px) {
+    header a {
+        padding-left: 1.5rem;
+    }
+    header .container .row .col-md-7 {
+        margin-top: 2rem;
+    }
+    header .container .row .col-md-5 > img{
+        margin-top: 6rem;
+    }
+    header .navbar-nav .nav-item {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .section-1 .row .col-md-6 img {
+        padding-top: 20px;
+    }
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+        padding: 10px 20px;
+    }
+    #info .row .col-md-6 {
+        padding-top: 10px;
+    }
+    #info .row .col-md-6 .p1 {
+        display: none;
+    }
+    .section-3 .row h1 {
+        padding: 4vmin 4vmin ;
+    }
+    .section-3 .row p {
+        font-size: 12px;
+    }
+    .section-3 .row .desktop {
+        padding-top: 0;
+    }
+    .section-3 .row .desktop .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 1rem 1.5rem ;
+        width: 70%;
+        height: 70%;
+    }
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+    footer {
+        padding: 1.5rem 2.5rem;
+    }
+    footer .row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 15px;
+    }
+    footer .row .col-md-5 {
+        width: 100%;
+        text-align: center;
+    }
+    footer .row .col-md-2 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header .container .row .col-md-7 {
+        padding-top: 80px;
+    }
+    header .container .row .col-md-5 > img{
+        margin-top: 0rem;
+    }
+    .section-4 .card {
+        width: 16rem;
+    }
+    .section-4 .carousel-inner {
+        margin-left: -20vmin;
+    }
+    .section-3 .row .p2 {
+        display: none;
+    }
+}

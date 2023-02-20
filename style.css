@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,400&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    box-sizing: border-box;
+}
+
+header,section {
+    overflow-x: hidden;
+}
+
+:root {
+    --popins: "Poppins", sans-serif;
+    --roboto: "Roboto", sans-serif; 
+    --light-black: #2e2c2caf;
+}
+
+header {
+    background: #000;
+    color: #fff;
+}
+
+header .navbar {
+    background: #fff;
+}
+
+header .fixed-top {
+    background: rgba(255, 255, 255, 0.93);
+}
+
+.navbar a.navbar-brand {
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 3px solid #000;
+    padding-bottom: 0;
+    transition: 0.4s;
+}
+
+.navbar a.navbar-brand:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.25em);
+}   
+
+#navbarNav {
+    font-size: 25px;
+    font-weight: 300;
+    /* padding-right: 10px; */
+}
+
+.navbar {
+    /* overflow: hidden; */
+    box-shadow: 0 0px 10px #000;
+                /* 0 10px 20px #000; */
+}
+
+.container .col-md-7 {
+    padding-top: 50px;
+}
+
+.navbar-nav a.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+.navbar-nav a.nav-link:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+.row .col-md-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22vmin 1vmin;
+}
+
+.row .col-md-7 h6 {
+    letter-spacing: 2px;
+    padding: .1rem;
+}
+
+.row .col-md-7 h1 {
+    font-family: var(--roboto);
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.row .col-md-7 p {
+    padding-bottom: 10px;
+}
+
+.row .col-md-7 .btn {
+    margin-top: 2rem;
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.row .col-md-7 .btn:hover,
+.row .col-md-7 .btn:focus    {
+    /* background: whitesmoke; */
+    /* color: #000; */
+    /* box-shadow: 7px 7px gray; */
+    color: yellow;
+    border: 1px solid yellow;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.25em);
+}
+
+/* Section 1 */
+
+.section-1 {
+    padding: 20vmin;
+    background: #eee;
+}
+
+.section-1 .row .col-md-6 img {
+    opacity: 0.8;
+    width: 90%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 12vmin;
+    left: -18vmin;
+    background: black;
+    color: #fff;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* Section 2 */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url('/imgs/book-bg-1.jpg');
+    background-position: -24rem -19rem;
+    background-size: 100%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+    /* font-weight: 600; */
+    letter-spacing: 2px;
+    color: beige;
+    font-size: 6.vmin;
+}
+
+.cover .content > p {
+    /* font-style: italic; */
+    font-size: 2.2vmin;
+    color: #fff;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgb(227, 206, 180);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: gold;
+    font-weight: 600;
+}
+
+.numbers .rect p {
+    font-weight: 600;
+}
+
+.purchase > h1 {
+    font-family: 'Lobster';   
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+}
+
+.purchase > p {
+    font-size: 3vmin;
+    color: gray ;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    margin: 0;
+    padding: 0;
+}
+
+.cards .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.cards .title h5 {
+    font-weight: 600;
+}
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: gray;
+}
+
+.card-body .princing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .princing > h1 {
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.card-body .princing .btn {
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.card-body .princing .btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Section 3 */
+
+.section-3 {
+    height: 70vmin;
+    margin-top: 15vmin;
+    background-color: black;
+    color: #fff;
+}
+
+.section-3 .col-md-12 > h1 {
+    padding: 2em 0 0.5em 0;
+    font-size: 6vmin;
+    font-weight: 600;
+}
+
+.section-3 .col-md-12 > p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    font-size: 3vmin;
+}
+
+.section-3 .desktop {
+    background: white;
+    color: #000;
+    display: inline-block;
+    border-radius: 3em  ;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.section-3 .desktop:hover {
+    background: #eee;
+}
+
+.section-3 .desktop .text {
+    margin-left: 1em;
+}
+
+.section-3 .desktop h4 {
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2vmin;
+}
+
+/* Section 4 */
+
+.section-4 .container-fluid h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin ;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body > a {
+    font-size: 1.5em;
+}
+
+.br {
+    border-radius: 51%;
+    padding: 10px 30px;
+}
+
+.w50 {
+    width: 61.5%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f5f1ed;
+    /* color: #fff; */
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p > span {
+    color: #fca311;
+}
+
+footer .form-control {
+    background-color: #000 !important;
+    border: none;
+}
+
+footer input::placeholder {
+    color: #fff !important;
+}
+
+footer .input-group-text {
+    width: 100%;
+    display: inline-block;
+    background-color: #df2935;
+    border: none;
+    cursor: pointer;
+}
+
+footer .column i{
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer .copy {
+    color: #001427;
+}
+
+footer .copy > span {
+    color: #000;
+    font-weight: 600;
+    transition: 0.4s;
+
+}
+
+footer .copy > span:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
