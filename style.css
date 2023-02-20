@@ -160,7 +160,7 @@ header .row .col-md-5 {
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url('/imgs/book-bg-1.jpg');
+    background: url('imgs/book-bg-1.jpg');
     background-position: -24rem -19rem;
     background-size: 100%;
     position: relative;
